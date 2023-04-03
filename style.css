@@ -84,6 +84,33 @@ nav ul li a{
     transform: translateX(-70%);
 }
 
+.text-home icon-sosmed-home a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.text-home icon-sosmed-home{
+    display: flex;
+}
+
+.text-home icon-sosmed-home i{
+    color: #000000;
+}
+.text-home icon-sosmed-home a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.text-home icon-sosmed-home a:hover i{
+    color: #ffffff;
+    transition: all ease 0.5s;
+}
+
 /* ABOUT SECTION */
 
 .text-about{
