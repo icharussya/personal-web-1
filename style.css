@@ -2,7 +2,7 @@
 
 @charset "utf-8";
 body{
-    background-color: #f6f5f5;
+    background: color #e9e1da;
     margin: 0px;
     padding: 0px;
 }
@@ -15,10 +15,11 @@ a{
 section{
     width: 100%;
     height: 95vh;
-    background-image: url(bg2.png);
+    background-color: #cadeed;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
 }
 nav{
     display: flex;
@@ -26,9 +27,10 @@ nav{
     align-items: center;
     right: 10%;
     height: 60px;
-    background-color: #ffffff;
+    background-color:#ffffff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding: 0px 5%;
+
 }
 nav ul{
     display: flex;
@@ -36,17 +38,19 @@ nav ul{
 nav ul li a{
     margin: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #505050;
+    color: #0c4876;
     font-size: 15px;
     font-weight: 700;
     
 }
-.active{
-    font-weight: bold;
-    color: #007575;   
+
+nav ul li a:hover{
+    color: #aec5d8;
+    transition: all ease 0.5s;
 }
+
 .text-home p :nth-child(1){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
@@ -99,7 +103,7 @@ nav ul li a{
 }
 
 .text-home icon-sosmed-home i{
-    color: #000000;
+    color: #194569;
 }
 .text-home icon-sosmed-home a:hover{
     background-color: #000000;
@@ -162,21 +166,24 @@ nav ul li a{
 .desc-port p:nth-child(1){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color: #3e3d3d;
+    color: #194569;
     font-size: 30px;
     line-height: 0px;
+    padding: 0 0 0 85%;
 }
 .desc-port p:nth-child(2){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif
     font-weight: bold;
-    color: #3e3d3d;
+    color: #5f84a2;
     font-size: 15px;
     line-height: 5px;
+    justify-content: center; 
 
 } 
 .desc-port p:nth-child(3) {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #7e7d7d;
+    color: #91aec4;
+    padding: 0 0 0 100%;
 
 }
 .desc-port{
@@ -199,19 +206,19 @@ nav ul li a{
     justify-content: space-between;
 }
 .box1{
-    background-image: url(box1.jpg);
+    background-image: url(port1.jpeg);
 }
 .box2{
-    background-image: url(box1.jpg);
+    background-image: url(port2.jpeg);
 }
 .box3{
-    background-image: url(box1.jpg);
+    background-image: url(port3.jpeg);
 }
 .box1 span, .box2 span, .box3 span{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #dbecf4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +236,7 @@ nav ul li a{
     text-align: center;
     width: 230px;
     margin: 0px 0px 20px 0px;
-    color: #8f8f8f;
+    color: #dbecf4;
 }
 .text-blog{
     width: 100%;
@@ -253,12 +260,13 @@ nav ul li a{
 /* FOOTER SECTION */
 
 footer{
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: #000000;
 }
 footer p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -267,12 +275,12 @@ footer p{
 footer p:nth-child(1){
     font-size: 30px;
     font-weight: bold;
-    color: #191919;
+    color: #dbecf4;
     line-height: 10px;
 }
 footer p:nth-child(2){
     font-size: 16px;
-    color: #7e7d7d;
+    color: #cadeed;
     width: 600px;
     text-align: center;
 }
@@ -282,7 +290,7 @@ footer p:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e6e3e3;
+    background-color: #194569;
     margin: 20px 10px;
     border-radius: 50%;
 }
@@ -299,7 +307,7 @@ footer p:nth-child(2){
 
 }
 .icon-sosmed i{
-    color: #000000;
+    color: #ffffff;
 }
 .icon-sosmed a:hover{
     background-color: #000000;
